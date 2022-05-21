@@ -315,3 +315,23 @@ h2{
     font-size: 8px;
     margin: 3px 0px;
 }
+
+.btn-comprar{
+    background-color: #C8B4A5;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    margin: 10px 0px;
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.btn-comprar:hover{
+    background-color: #a96c68;
+}
+
+.btn-comprar:active{
+    background-color: #955c58;
+}

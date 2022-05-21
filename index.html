@@ -25,7 +25,7 @@
             </div>
             <ul class="nav-links">
                 <li><a href="./Productos.html">Productos</a></li>
-                <li><a href="./Carrito.html" class="btn-cac"><i class="fa-solid fa-wine-glass"></i>()</a></li>
+                <li><a href="./Carrito.html" class="btn-cac" id="top"><i class="fa-solid fa-wine-glass"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -59,12 +59,12 @@
             <div class="container d-flex">
                 <div class="d-form">
                     <h2>Deja tu consulta</h2>
-                    <form action="">
+                    <form action="" id="formulario">
                         <div class="div-field">
                             <input class="input-contacto" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre">
                         </div>
                         <div class="div-field">
-                            <input class="input-contacto" type="email" name="email" id="email" placeholder="Ingrese Email">
+                            <input class="input-contacto" type="text" name="email" id="email" placeholder="Ingrese Email">
                         </div>
                         <div class="div-field">
                             <textarea class="input-contacto" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Dejanos tu consulta"></textarea>
@@ -88,5 +88,6 @@
         <a href="">Preguntas Frecuentes</a>
         <a href="">Ayuda</a>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
